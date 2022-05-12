@@ -3,7 +3,7 @@ import axios from 'axios'
 
 export default  function DataFetching() {
 
-    // const [posts, setPosts] = useState({})
+    // const [posts, setPosts] = useState([])
     const [post, setPost] = useState({})
     const [id, setId] = useState(1)
     const [idFromButtonClick, setIdFromButtonClick] = useState(1)
